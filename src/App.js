@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header/Header';
 import HomePage from './Components/HomePage/HomePage';
+import ManageInventory from './Components/ManageInventory/ManageInventory';
 import QunatityUpdate from './Components/QuantityUpdata/QunatityUpdate';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      <Routes>
        <Route path='/' element={<HomePage></HomePage>}></Route>
        <Route path='/inventory/:inventoryId' element={<QunatityUpdate></QunatityUpdate>}></Route>
+       <Route path='/manageInventory' element={<ManageInventory></ManageInventory>}></Route>
      </Routes>
     </div>
   );
