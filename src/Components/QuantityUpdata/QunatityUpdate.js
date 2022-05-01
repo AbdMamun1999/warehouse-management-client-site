@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom';
 const QunatityUpdate = () => {
     const { inventoryId } = useParams()
     const [inventory, setInventory] = useState({})
-    const [quantity, setQuantity] = useState(0)
 
     useEffect(() => {
         axios.get(`http://localhost:5000/inventory/${inventoryId}`)
@@ -16,14 +15,9 @@ const QunatityUpdate = () => {
     }, [inventory])
 
 
-    const inputValue = event => {
-        const quantity = parseInt(event.target.value);
-        setQuantity(quantity)
-    }
-
     const quantityUpdate = async event => {
         event.preventDefault()
-
+        const quantity = parseInt(event.target.quantity.value);
         const previousQuantity = inventory.quantity
         if (quantity > 0) {
             const currentQuantity = quantity + previousQuantity;
@@ -36,28 +30,28 @@ const QunatityUpdate = () => {
     }
 
 
-    const decreaseQuantity = async event => {
+    const deliveriedQuantity = async event => {
         event.preventDefault()
-
         const previousQuantity = inventory.quantity
-        if (quantity > 0) {
-            const currentQuantity = previousQuantity - quantity;
-            console.log(currentQuantity)
-            const url = `http://localhost:5000/inventory/${inventoryId}`
+        const currentQuantity = previousQuantity - 1;
+        console.log(currentQuantity)
+        const url = `http://localhost:5000/inventory/${inventoryId}`
 
-            const { data } = await axios.put(url, { currentQuantity })
-        }
+        const { data } = await axios.put(url, { currentQuantity })
+
     }
 
     return (
         <div>
             <h2>Quantity Update page :{inventoryId}</h2>
-            {/* <form > */}
-            <label htmlFor="quantity">Quantity For The Product :{inventory.quantity}</label><br /><br />
-            <input type="text" onBlur={inputValue} placeholder='Quantity' name='quantity' /> <br /><br />
-            <button onClick={quantityUpdate}>Added Quantity</button>
-            <button onClick={decreaseQuantity}>Decrease Quantity</button>
-            {/* </form> */}
+            <form onSubmit={quantityUpdate}>
+                <label htmlFor="quantity">Quantity For The Product :{inventory.quantity}</label><br /><br />
+                <input type="text" placeholder='Quantity' name='quantity' /> <br /><br />
+                <input type="submit" value="Quantity Update" />
+               
+            </form>
+            <button onClick={deliveriedQuantity}>Decrease Quantity</button>
+
         </div>
     );
 };
