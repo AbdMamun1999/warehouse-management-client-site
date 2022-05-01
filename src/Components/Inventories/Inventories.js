@@ -6,13 +6,16 @@ import './inventories.css'
 const Inventories = () => {
     const [inventories, setInventories] = useState([])
 
-    useEffect(() => {
+    useEffect(()=>{
         axios.get('http://localhost:5000/inventory')
-            .then(response => {
-                const { data } = response
-                setInventories(data)
-            })
-    }, [])
+        .then(response =>{
+            const {data} = response;
+            setInventories(data)
+            console.log(response)
+        })
+    },[])
+
+    console.log(inventories)
 
     return (
         <div>
