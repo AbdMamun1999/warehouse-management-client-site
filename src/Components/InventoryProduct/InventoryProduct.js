@@ -1,9 +1,11 @@
 import React from 'react';
 
-const InventoryProduct = () => {
+const InventoryProduct = (props) => {
+    const {name} = props.inventory
     return (
-        <div>
-            <h3>Manage Inventory Products</h3>
+        <div >
+            <h3>{name}</h3>
+            <button>Delete Item</button>
         </div>
     );
 };

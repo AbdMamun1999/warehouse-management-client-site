@@ -1,21 +1,27 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import InventoryProduct from '../InventoryProduct/InventoryProduct';
 
 const ManageInventory = () => {
-    const [inventory,setInventory] = useState([])
+    const [inventories,setInventories] = useState([])
     useEffect(()=>{
         axios.get('http://localhost:5000/inventories')
         .then(respose => {
-            console.log(respose)
             const {data} = respose
-            console.log(data)
+            setInventories(data)
         })
     },[])
     return (
         <div>
             <h3>Manage Inventory</h3>
+            <div className='inventories-container'>
             {
+                inventories.map(inventory => <InventoryProduct
+                    key={inventory._id}
+                    inventory={inventory}
+                ></InventoryProduct>)
             }
+            </div>
         </div>
     );
 };
