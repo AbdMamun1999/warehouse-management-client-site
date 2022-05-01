@@ -7,6 +7,7 @@ const Inventory = (props) => {
             <h2>{name}</h2>
             <p>Price:{price}</p>
             <p>Quantity:{quantity}</p>
+            <button>Update</button>
         </div>
     );
 };
