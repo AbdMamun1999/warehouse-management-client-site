@@ -1,17 +1,21 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
 const Inventories = () => {
     const [inventories,setInventories] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5000/inventory')
-        .then(res=>res.json())
-        .then(data => console.log(data))
+        axios.get('http://localhost:5000/inventory')
+        .then(response =>{
+            const {data} = response
+            setInventories(data)
+        })
     },[])
 
     return (
         <div>
             <h1 className='text-center'>Inventory</h1>
+            
         </div>
     );
 };
