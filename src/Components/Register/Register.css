@@ -1,6 +1,6 @@
 .register{
     margin: auto;
-    width: 80vw;
+    width: 70vw;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -17,10 +17,7 @@
     padding: 20px 10px 10px 10px;
     border-radius: 5px;
 }
-.register span{
-    border: 1px solid black;
-    padding: 15px 15px;
-}
+
 .register-container input{
     outline: none;
     width: 100%; 
@@ -32,6 +29,13 @@
     border-radius: 7px;
     color: #141E27;
 }
+.link{
+    color: gray;
+}
+.link a{
+    border: none;
+    text-decoration: none;
+}
 .register-container input[type='submit']{
     border: none;
     background-color: #141E27;
@@ -40,6 +44,6 @@
 @media only screen and (min-width: 600px) {
     .register-container{
         width: 500px;
-        height: 400px;
+        height: 464px;
     }
 }
