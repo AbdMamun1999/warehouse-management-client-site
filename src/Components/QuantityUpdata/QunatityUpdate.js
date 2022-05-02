@@ -1,10 +1,11 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const QunatityUpdate = () => {
     const { inventoryId } = useParams()
     const [inventory, setInventory] = useState({})
+    const navigate = useNavigate()
 
     useEffect(() => {
         axios.get(`http://localhost:5000/inventory/${inventoryId}`)
@@ -51,6 +52,9 @@ const QunatityUpdate = () => {
                
             </form>
             <button onClick={deliveriedQuantity}>Decrease Quantity</button>
+
+
+            <button onClick={()=>navigate('/manageInventory')}>Manage Inventory</button>
 
         </div>
     );
