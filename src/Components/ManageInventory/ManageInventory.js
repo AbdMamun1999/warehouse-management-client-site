@@ -10,7 +10,19 @@ const ManageInventory = () => {
             const {data} = respose
             setInventories(data)
         })
-    },[])
+    },[inventories])
+
+
+    const handleDeleteItem = async (id) =>{
+        const url = `http://localhost:5000/inventory/${id}`
+        const {data} = await axios.delete(url)
+        if(data.deleteCount>0){
+           const remaining = inventories.filter(inventory => inventory._id !== id)
+           setInventories(remaining)
+        }
+        
+    }
+
     return (
         <div>
             <h3>Manage Inventory</h3>
@@ -19,6 +31,7 @@ const ManageInventory = () => {
                 inventories.map(inventory => <InventoryProduct
                     key={inventory._id}
                     inventory={inventory}
+                    handleDeleteItem={handleDeleteItem}
                 ></InventoryProduct>)
             }
             </div>

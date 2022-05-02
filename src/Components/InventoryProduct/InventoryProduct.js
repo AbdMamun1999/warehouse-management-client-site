@@ -1,11 +1,12 @@
+import axios from 'axios';
 import React from 'react';
 
-const InventoryProduct = (props) => {
-    const {name} = props.inventory
+const InventoryProduct = ({inventory,handleDeleteItem}) => {
+    const {_id,name} = inventory;
     return (
         <div >
             <h3>{name}</h3>
-            <button>Delete Item</button>
+            <button onClick={()=>handleDeleteItem(_id)}>Delete Item</button>
         </div>
     );
 };
