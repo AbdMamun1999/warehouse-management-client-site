@@ -1,9 +1,12 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import InventoryProduct from '../InventoryProduct/InventoryProduct';
 
 const ManageInventory = () => {
     const [inventories,setInventories] = useState([])
+    const navigate = useNavigate()
+
     useEffect(()=>{
         axios.get('http://localhost:5000/inventories')
         .then(respose => {
@@ -35,6 +38,7 @@ const ManageInventory = () => {
                 ></InventoryProduct>)
             }
             </div>
+            <button onClick={()=>navigate('/addNewItem')}>Add Item</button>
         </div>
     );
 };
