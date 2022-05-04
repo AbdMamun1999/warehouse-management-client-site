@@ -3,7 +3,7 @@ import './Login.css'
 import google from '../../images/social/google.png'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const [email,setEmail] = useState('')
@@ -28,7 +28,7 @@ const Login = () => {
     }
 
     if(user){
-        Navigate('/')
+        navigate('/')
     }
 
     const handleLogin = event =>{
