@@ -3,13 +3,14 @@ import './Login.css'
 import google from '../../images/social/google.png'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Loading from '../Loading/Loading';
 
 const Login = () => {
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')
     const navigate = useNavigate()
+    const location = useLocation()
     let errorMassage;
     const [
         signInWithEmailAndPassword,
@@ -17,6 +18,8 @@ const Login = () => {
         loading,
         error,
       ] = useSignInWithEmailAndPassword(auth);
+
+    //   let from = location.state?.from?.pathname || "/";
 
     const handleEmail = event =>{
         const email = event.target.value;
@@ -29,6 +32,7 @@ const Login = () => {
     }
 
     if(user){
+        // navigate(from,{replace:true})
         navigate('/')
     }
 
