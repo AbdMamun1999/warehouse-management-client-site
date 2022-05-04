@@ -4,12 +4,13 @@ import google from '../../images/social/google.png'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { useNavigate } from 'react-router-dom';
+import Loading from '../Loading/Loading';
 
 const Login = () => {
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')
     const navigate = useNavigate()
-
+    let errorMassage;
     const [
         signInWithEmailAndPassword,
         user,
@@ -31,11 +32,21 @@ const Login = () => {
         navigate('/')
     }
 
+    if(loading){
+        return <Loading></Loading>
+    }
+
+    if(error){
+        errorMassage=<p className='text-start text-danger'>Error: {error?.message}</p>
+    }
+
     const handleLogin = event =>{
         event.preventDefault()
         signInWithEmailAndPassword(email,password)
         
     }
+
+    console.log(error)
 
     return (
         <div className='login'>
@@ -44,6 +55,7 @@ const Login = () => {
                 <form onSubmit={handleLogin}>
                     <input onBlur={handleEmail} type="email" name="email" id="" placeholder='Email' required />
                     <input onBlur={handlePassword} type="password" name='password' placeholder='Password' required />
+                   {errorMassage}
                     <input type="submit" value="Login" />
                 </form>
                 <div className='horizental-line'>
