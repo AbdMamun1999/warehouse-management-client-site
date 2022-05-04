@@ -19,9 +19,8 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true});
 
-    
 
     const handleEmail = event => {
         const email = event.target.value;
@@ -45,14 +44,12 @@ const Register = () => {
     const handleRegister = async event => {
         event.preventDefault()
         if (password === confirmPassword) {
-            createUserWithEmailAndPassword(email, password)
+            await createUserWithEmailAndPassword(email, password)
         } else {
             setPasswordError('Confirm password do not match')
         }
 
     }
-
-    console.log(user)
 
     return (
         <div className='register'>
