@@ -1,0 +1,73 @@
+.quantity-update-container{
+    margin:100px auto;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+}
+.quantity-update-container img{
+    width: 100%;
+}
+.quantity-button-div{
+    display: flex;
+    gap:10px;
+}
+
+.quantity-update-container input{
+    width: 80%;
+    outline: none;
+    border: 1px solid #141e27;
+    padding: 8px 15px;
+    font-size: 20px;
+    color: #141e27;
+    border-radius: 7px;
+}
+.quantity-update-container input[type=submit]{
+    width:180px;
+    margin: 0 5px 5px 0;
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 0;
+}
+
+.deliveried-button{
+    width:180px;
+    margin: 0 5px 5px 0;
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 0;
+}
+.header{
+    color: #141e27;
+}
+.product-description{
+    color: #141e27;
+    font-size: 20px;
+}
+.quantity-update-container label{
+    margin-right: 20px;
+}
+.manage-inventory-button{
+    text-align: center;
+}
+.manage-inventory-button button{
+    width:180px;
+    margin: 0 5px 5px 0;
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 0;
+}
+@media screen and (max-width:668px) {
+    .quantity-update-container{
+        flex-direction: column;
+        width: 95%;
+    }
+    .quantity-update-container input{
+        width: 95%;
+    }
+}

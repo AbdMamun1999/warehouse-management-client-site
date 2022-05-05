@@ -1,12 +1,181 @@
 [
-    {"name":"Nokiya 1100","price":"2000","quantity":5,"supplierName":"Nokiya","description":"The Nokia 1100 (and closely related variants, the Nokia 1101 and the Nokia 1108) is a basic GSM mobile phone produced by Nokia. Over 250 million 1100s have been sold since its launch in late 2003,[1] making it the world's best selling phone handset[2] and the best selling consumer electronics device in the world at the time.[3] The model was announced on 27 August 2003[4] and was discontinued in September 2009"},
-    {"name":"xiomi note 10","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 11","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 8","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 7","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 7 pro","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 8 pro","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 9 pro","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 9","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."},
-    {"name":"xiomi note 10 pro max","price":"19000","quantity":50,"supplierName":"Xiomi","description":":The Redmi Note 8 cellphone display is designed with elegant rounded corners with the four corners located inside a standard rectangle. Measured according to the standard rectangle, the diagonal length of the screen is 6.3 inches (the actual visible area is smaller). The term \"Full Screen Display\" indicates that the phone has a high screen to body ratio in comparison to traditional Redmi phones. The 90% screen-to-body ratio results may vary slightly depending on measurement methods used across the industry."}
+    {
+        "name": "Pumpkin",
+        "img": "https://i.ibb.co/ZHfV80D/index3.png ",
+        "description": "Rich in vitamins, minerals and antioxidants, pumpkin is incredibly healthy. What's more, its low calorie content makes it a weight-loss-friendly food",
+        "price": "80",
+        "quantity": "450",
+        "supplier-name": "Hortex Foundation"
+    },
+    {
+        "name": "Papaya",
+        "img": "https://i.ibb.co/Rb0Mk20/index2.png ",
+        "description": "Papayas contain high levels of antioxidants vitamin A, vitamin C, and vitamin E. Diets high in antioxidants may reduce the risk of heart disease",
+        "price": "60",
+        "quantity": "200",
+        "supplier-name": "Nuria Enterprise"
+    },
+    {
+        "name": "Pomegranate",
+        "img": "https://i.ibb.co/HzfxnkV/index1.png ",
+        "description": "Pomegranate juice contains higher levels of antioxidants than most other fruit juices. It also has three times more antioxidants than red wine and green tea.",
+        "price": "70",
+        "quantity": "600",
+        "supplier-name": "Planner Associates ltd"
+    },
+    {
+        "name": "Cabbage",
+        "img": "https://i.ibb.co/4PW04JN/index-2.png ",
+        "description": "Even though cabbage is very low in calories, it has an impressive nutrient profile.Cabbage also contains small amounts of other micronutrients, including vitamin A, iron and riboflavin.",
+        "price": "60",
+        "quantity": "400",
+        "supplier-name": "G.I.T Bangladesh Ltd"
+    },
+    {
+        "name": "Banana",
+        "img": "https://i.ibb.co/d2r0522/index12.png ",
+        "description": "Bananas contain fiber, potassium, folate, and antioxidants, such as vitamin C. All of these support heart health.",
+        "price": "40",
+        "quantity": "600",
+        "supplier-name": "Ratul Trade LTD"
+    },
+    {
+        "name": "Ladies Finger",
+        "img": "https://i.ibb.co/rHQZrkB/index11.png",
+        "description": "Bhindi contains a high amount of vitamin C which is known to boost immunity and prevent common infections. 100 grams of bhindi can give you around 40% of the daily recommended intake of vitamin C.",
+        "price": "40",
+        "quantity": "300",
+        "supplier-name": "Agro All Round ltd"
+    },
+    {
+        "name": "Apple",
+        "img": "https://i.ibb.co/LZfP60f/index10.png ",
+        "description": "Apples are an incredibly nutritious fruit that offers multiple health benefits. They're rich in fiber and antioxidants",
+        "price": "60",
+        "quantity": "400",
+        "supplier-name": "Aspiration Exim ltd"
+    },
+    {
+        "name": "Carrot",
+        "img": "https://i.ibb.co/7b0XyQh/index9.png ",
+        "description": "Carrots are rich in vitamins, minerals, and fiber. They are also a good source of antioxidants. Antioxidants are nutrients present in plant-based foods.",
+        "price": "40",
+        "quantity": "500",
+        "supplier-name": "Ratul Trade LTD"
+    },
+    {
+        "name": "Kiwi",
+        "img": "https://i.ibb.co/BGMH6TH/index7.png ",
+        "description": "Kiwis are high in Vitamin C and dietary fiber and provide a variety of health benefits. This tart fruit can support heart health, digestive health, and immunity.",
+        "price": "90",
+        "quantity": "600",
+        "supplier-name": "Planner Associates ltd"
+    },
+    {
+        "name": "Fig",
+        "img": "https://i.ibb.co/yyZFNRC/index6.png ",
+        "description": "Figs are a good source of both calcium and potassium. These minerals can work together to improve bone density, which can, in turn, prevent conditions like osteoporosis.",
+        "price": "40",
+        "quantity": "400",
+        "supplier-name": "G.I.T Bangladesh Ltd"
+    },
+    {
+        "name": "Beetroot",
+        "img": " https://i.ibb.co/MkKMc2r/index5.png ",
+        "description": "Beetroot has been gaining in popularity as a superfood. Recent studies claim that beets and beetroot juice can improve athletic performance, reduce blood pressure, and increase blood flow",
+        "price": "60",
+        "quantity": "200",
+        "supplier-name": "Agro All Round ltd"
+    },
+    {
+        "name": "Peas",
+        "img": "https://i.ibb.co/Jq0phkQ/index4.png",
+        "description": "Peas are a good source of vitamins C and E, zinc, and other antioxidants that strengthen your immune system. Other nutrients, such as vitamins A and B and coumestrol, help reduce inflammation and lower your risk of chronic conditions, including diabetes, heart disease, and arthritis.",
+        "price": "40",
+        "quantity": "300",
+        "supplier-name": "Aspiration Exim ltd"
+    },
+    {
+        "name": "Cabbage",
+        "img": "https://i.ibb.co/4PW04JN/index-2.png",
+        "description": "Vitamin C, also known as ascorbic acid, is a water-soluble vitamin that serves many important roles in the body.",
+        "price": "40",
+        "quantity": "650",
+        "supplier-name": "Aspiration Exim ltd"
+    },
+    {
+        "name": "Orange",
+        "img": "https://i.ibb.co/2Y0Mn1k/Navel-Orange.png",
+        "description": "Oranges are an excellent source of vitamin C. One orange offers 116.2 per cent of the daily value for vitamin C. Good intake of vitamin C is associated with a reduced risk of colon cancer as it helps to get of free radicals that cause damage to our DNA.",
+        "price": "60",
+        "quantity": "450",
+        "supplier-name": "Agro All Round ltd"
+    },
+    {
+        "name": "Mango",
+        "img": "https://i.ibb.co/Bz5SnXc/69185542-cms.png ",
+        "description": "Mango is rich in vitamins, minerals, and antioxidants, and it has been associated with many health benefits, including potential anticancer effects,",
+        "price": "30",
+        "quantity": "206",
+        "supplier-name": "Ratul Trade LTD"
+    },
+    {
+        "name": "Grapes",
+        "img": "https://i.ibb.co/0BFZY5f/index.png",
+        "description": "Grapes are a go-to snack for picnics and lunchboxes, but don't take them for granted. For thousands of years, they've been used in some cultures as medicine.",
+        "price": "65",
+        "quantity": "600",
+        "supplier-name": "G.I.T Bangladesh Ltd"
+    },
+    {
+        "name": "Coconut",
+        "img": "https://i.ibb.co/FVBS49C/istockphoto-1187687788-612x612.png ",
+        "description": "Coconut is the fruit of the coconut palm (Cocos nucifera), which is commonly used for its water, milk, oil, and tasty meat.",
+        "price": "45",
+        "quantity": "700",
+        "supplier-name": "Planner Associates ltd"
+    },
+    {
+        "name": "Watermelon",
+        "img": "https://i.ibb.co/1LJvzzF/istockphoto-1131704553-612x612.png ",
+        "description": "Watermelon is a sweet and refreshing low calorie summer snack. It provides hydration and also essential nutrients, including vitamins, minerals, and antioxidants.",
+        "price": "100",
+        "quantity": "900",
+        "supplier-name": "Nuria Enterprise"
+    },
+    {
+        "name": "Beal",
+        "img": "https://i.ibb.co/RYTHVZK/Screenshot-254-1024x645.png",
+        "description": "Bael contains chemicals called tannins, flavonoids, and coumarins. These chemicals help to reduce swelling (inflammation). This might help treat asthma, diarrhea, and other conditions. Also, some of these chemicals help to reduce blood sugar.",
+        "price": "60",
+        "quantity": "400",
+        "supplier-name": "Hortex Foundation"
+    }
+]
+
+
+
+
+[
+    {
+        //         https://i.ibb.co/ZHfV80D/index3.png
+        // https://i.ibb.co/Rb0Mk20/index2.png
+        // https://i.ibb.co/HzfxnkV/index1.png
+        // https://i.ibb.co/4PW04JN/index-2.png
+        // https://i.ibb.co/d2r0522/index12.png
+        // https://i.ibb.co/rHQZrkB/index11.png
+        // https://i.ibb.co/LZfP60f/index10.png
+        // https://i.ibb.co/7b0XyQh/index9.png
+        // https://i.ibb.co/BGMH6TH/index7.png
+        // https://i.ibb.co/yyZFNRC/index6.png
+        // https://i.ibb.co/MkKMc2r/index5.png
+        // https://i.ibb.co/Jq0phkQ/index4.png
+        // https://i.ibb.co/4PW04JN/index-2.png
+        // https://i.ibb.co/2Y0Mn1k/Navel-Orange.png
+        // https://i.ibb.co/Bz5SnXc/69185542-cms.png
+        // https://i.ibb.co/0BFZY5f/index.png
+        // https://i.ibb.co/FVBS49C/istockphoto-1187687788-612x612.png
+        // https://i.ibb.co/1LJvzzF/istockphoto-1131704553-612x612.png
+        // https://i.ibb.co/RYTHVZK/Screenshot-254-1024x645.png
+    }
 ]
