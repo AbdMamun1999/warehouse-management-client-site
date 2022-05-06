@@ -17,7 +17,7 @@ const Inventories = () => {
     },[])
 
     return (
-        <div className='text-center'>
+        <div >
             <h1 className='text-center'>Inventory</h1>
             <div className='inventories-container'>
                 {
@@ -27,7 +27,8 @@ const Inventories = () => {
                     ></Inventory>)
                 }
             </div>
-                <button onClick={()=>navigate('/manageInventory')}>Manage Inventory</button>
+                <button className='manageInventory-button' onClick={()=>navigate('/manageInventory')}>Manage Inventory</button>
+                
         </div>
     );
 };

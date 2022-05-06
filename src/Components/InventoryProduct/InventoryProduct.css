@@ -1,0 +1,41 @@
+tr td img{
+    width: 120px;
+    height: 80px;
+}
+tr td{
+    vertical-align: baseline;
+    text-align: center;
+    font-weight: 600;
+}
+.delete-button {
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+.add-item-button{
+    margin: 100px auto;
+    display: block;
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width:668px) {
+    tr td img{
+        width: 80px;
+        height: 50px;
+    }
+    tr td{
+        vertical-align: baseline;
+        text-align: center;
+        font-weight: 400;
+    }
+    .delete-button{
+        padding: 5px 8px;
+    }
+}

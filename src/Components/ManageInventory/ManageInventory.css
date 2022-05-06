@@ -1,0 +1,8 @@
+tr th{
+    text-align: center;
+}
+@media screen and (max-width:668px) {
+    tr th{
+        font-weight: 600;
+    }
+}
