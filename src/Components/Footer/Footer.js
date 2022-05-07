@@ -39,13 +39,13 @@ const Footer = () => {
                 <div className='footer-help-list'>
                     <div>
                         <ul>
-                            <li className='mb-3'><h6>Product</h6></li>
+                            <li className='mb-3'><h5>Product</h5></li>
                             <li><p>Fresh Fruits</p></li>
                         </ul>
                     </div>
                     <div>
                         <ul>
-                            <li className='mb-3'><h6>Company</h6></li>
+                            <li className='mb-3'><h5>Company</h5></li>
                             <li><p>About</p></li>
                             <li><p>Careers</p></li>
                             <li><p>Support</p></li>
@@ -55,7 +55,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <ul>
-                            <li className='mb-3'><h6>Resources</h6></li>
+                            <li className='mb-3'><h5>Resources</h5></li>
                             <li><p>Blogs</p></li>
                             <li><p>eBook</p></li>
                             <li><p>white pagers</p></li>
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <ul>
-                            <li className='mb-3'><h6>Get Help</h6></li>
+                            <li className='mb-3'><h5>Get Help</h5></li>
                             <li><p>Help Center</p></li>
                             <li><p>Contact Us</p></li>
                             <li><p>Privacy Policy</p></li>

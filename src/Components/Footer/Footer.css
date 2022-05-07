@@ -1,4 +1,5 @@
 .footer{
+    margin-top: 50px;
     background-color: #141e27;
     padding: 20px;
 }
@@ -14,6 +15,7 @@
 .footer-social-icon{
     display: flex;
     gap: 20px;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -47,11 +49,9 @@
     color: white;
 }
 
-/* 
-width:180px;
-    margin: 0 5px 5px 0;
-    background-color: #141e27;
-    border: none;
-    color: white;
-    border-radius: 7px;
-    padding: 5px 0; */
+@media screen and (max-width:668px) {
+    .footer-help-list{
+       
+        flex-wrap: wrap;
+    }
+}
