@@ -19,7 +19,7 @@ function App() {
         <Route path='/inventory/:inventoryId' element={
           <RequireAuth>
             <QunatityUpdate></QunatityUpdate>
-           </RequireAuth>
+          </RequireAuth>
         }></Route>
         <Route path='/manageInventory' element={<ManageInventory></ManageInventory>}></Route>
         <Route path='/addNewItem' element={<AddNewItem></AddNewItem>}></Route>

@@ -17,7 +17,6 @@ const ManageInventory = () => {
             })
     }, [inventories])
 
-
     const handleDeleteItem = async (id) => {
         const url = `http://localhost:5000/inventory/${id}`
         const { data } = await axios.delete(url)
@@ -28,6 +27,7 @@ const ManageInventory = () => {
 
     }
 
+    
     return (
         <div>
 

@@ -27,7 +27,7 @@ const Inventories = () => {
                     ></Inventory>)
                 }
             </div>
-                <button className='manageInventory-button' onClick={()=>navigate('/manageInventory')}>Manage Inventory</button>
+                <button className='manageInventory-button d-block mx-auto' onClick={()=>navigate('/manageInventory')}>Manage Inventory</button>
                 
         </div>
     );
