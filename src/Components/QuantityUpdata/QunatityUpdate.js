@@ -23,7 +23,6 @@ const QunatityUpdate = () => {
         const previousQuantity = inventory.quantity
         if (quantity > 0) {
             const currentQuantity = quantity + previousQuantity;
-            console.log(currentQuantity)
             const url = `http://localhost:5000/inventory/${inventoryId}`
 
             const { data } = await axios.put(url, { currentQuantity })
@@ -37,7 +36,6 @@ const QunatityUpdate = () => {
         event.preventDefault()
         const previousQuantity = inventory.quantity
         const currentQuantity = previousQuantity - 1;
-        console.log(currentQuantity)
         const url = `http://localhost:5000/inventory/${inventoryId}`
 
         const { data } = await axios.put(url, { currentQuantity })

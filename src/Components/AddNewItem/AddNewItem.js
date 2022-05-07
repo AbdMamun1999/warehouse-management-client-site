@@ -17,7 +17,6 @@ const AddNewItem = () => {
         const supplier = event.target.supplier.value;
         const description = event.target.description.value;
         const addedProduct = {name,email,img,price,quantity,supplier,description}
-        console.log(addedProduct)
         const url = `http://localhost:5000/inventory`
         const { data } = await axios.post(url,addedProduct)
     }

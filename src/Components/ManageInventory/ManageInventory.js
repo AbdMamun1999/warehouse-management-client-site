@@ -30,12 +30,6 @@ const ManageInventory = () => {
 
     return (
         <div>
-            {/*  <h3 className='text-center'>Manage Inventory</h3>
-            <div className='inventories-container'>
-           
-            </div> */}
-
-
 
             <Table responsive="md">
                 <thead>

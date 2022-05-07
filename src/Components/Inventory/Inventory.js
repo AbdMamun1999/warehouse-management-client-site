@@ -15,7 +15,6 @@ const Inventory = (props) => {
         backgroundSize: 'cover',
         backgroundRepeat:'no-repeat'
     }
-    console.log(props)
 
     return (
         <div className='background-img' style={backgroundImgInventory}>

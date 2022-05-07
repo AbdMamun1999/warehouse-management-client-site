@@ -13,7 +13,6 @@ const Header = () => {
     signOut(auth)
     navigate('/')
   }
-  console.log(user)
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
