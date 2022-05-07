@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './Login.css'
-import google from '../../images/social/google.png'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Loading from '../Loading/Loading';
 import axios from 'axios';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const [email,setEmail] = useState('')
@@ -48,7 +48,7 @@ const Login = () => {
     const handleLogin =async event =>{
         event.preventDefault()
         await signInWithEmailAndPassword(email,password)
-        const {data} = await axios.post('http://localhost:5000/login',{email})
+        const {data} = await axios.post('https://ancient-fjord-07745.herokuapp.com/login',{email})
         console.log(data)
         localStorage.setItem('accessToken',data.accessToken);
         navigate(from,{replace:true})
@@ -71,13 +71,14 @@ const Login = () => {
                     <span>Or</span>
                     <div></div>
                 </div>
-                <div className="social-login">
-                    <div>
-                       <button>
-                           <img src={google} alt="" />
-                       </button>
-                    </div>
+
+                <div className='d-flex align-items-end justify-content-end mt-3'>
+                    <p className='fw-bold link'>
+                        Are you new?<span>
+                            <Link className='text-dark' to={'/register'}>Please register</Link></span>
+                    </p>
                 </div>
+                <SocialLogin></SocialLogin>
             </div>
         </div>
     );

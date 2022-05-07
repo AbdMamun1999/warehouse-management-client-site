@@ -1,0 +1,21 @@
+.verified-email{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verified-card{
+    box-shadow: 0 0 3px 1px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.verified-email h3{
+    color: #141e27;
+}
+.verified-email button{
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 14px;
+}

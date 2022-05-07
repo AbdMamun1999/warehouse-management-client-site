@@ -3,6 +3,7 @@ import './Register.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import Loading from '../Loading/Loading';
 
 
 
@@ -35,6 +36,10 @@ const Register = () => {
     const hadleConfirmPassword = event => {
         const confirmPassword = event.target.value;
         setConfoirmPassword(confirmPassword)
+    }
+
+    if(loading){
+        return <Loading></Loading>
     }
 
     if (user) {

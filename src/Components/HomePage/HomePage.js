@@ -6,6 +6,7 @@ const HomePage = () => {
         <div>
         <Inventories></Inventories>
         <Footer></Footer>
+
     </div>
     );
 };

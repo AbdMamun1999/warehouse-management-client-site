@@ -9,7 +9,7 @@ const Inventories = () => {
     const navigate = useNavigate()
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/inventory')
+        axios.get('https://ancient-fjord-07745.herokuapp.com/inventory')
         .then(response =>{
             const {data} = response;
             setInventories(data)

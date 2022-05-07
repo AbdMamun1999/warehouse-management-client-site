@@ -20,7 +20,7 @@ const MyItems = () => {
 
     const loadMyItems = async () => {
         const email = user.email;
-        const url = `http://localhost:5000/myItems?email=${email}`;
+        const url = `https://ancient-fjord-07745.herokuapp.com/myItems?email=${email}`;
         try{
             const { data } = await axios.get(url, {
                 headers: {
@@ -45,7 +45,7 @@ const MyItems = () => {
         console.log(id)
         const confirm = window.confirm('Are sure delete the item')
         if (confirm) {
-            const url = `http://localhost:5000/inventory/${id}`
+            const url = `https://ancient-fjord-07745.herokuapp.com/inventory/${id}`
             const { data } = axios.delete(url)
         }
 

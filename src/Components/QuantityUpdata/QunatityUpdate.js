@@ -10,7 +10,7 @@ const QunatityUpdate = () => {
     const { name, img, description, price, quantity } = inventory
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/inventory/${inventoryId}`)
+        axios.get(`https://ancient-fjord-07745.herokuapp.com/inventory/${inventoryId}`)
             .then(response => {
                 const { data } = response;
                 setInventory(data)
@@ -23,7 +23,7 @@ const QunatityUpdate = () => {
         const previousQuantity = inventory.quantity
         if (quantity > 0) {
             const currentQuantity = quantity + previousQuantity;
-            const url = `http://localhost:5000/inventory/${inventoryId}`
+            const url = `https://ancient-fjord-07745.herokuapp.com/inventory/${inventoryId}`
 
             const { data } = await axios.put(url, { currentQuantity })
             event.target.reset()
@@ -36,7 +36,7 @@ const QunatityUpdate = () => {
         event.preventDefault()
         const previousQuantity = inventory.quantity
         const currentQuantity = previousQuantity - 1;
-        const url = `http://localhost:5000/inventory/${inventoryId}`
+        const url = `https://ancient-fjord-07745.herokuapp.com/inventory/${inventoryId}`
 
         const { data } = await axios.put(url, { currentQuantity })
 

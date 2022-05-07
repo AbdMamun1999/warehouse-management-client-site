@@ -10,7 +10,7 @@ const ManageInventory = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        axios.get('http://localhost:5000/inventories')
+        axios.get('https://ancient-fjord-07745.herokuapp.com/inventories')
             .then(respose => {
                 const { data } = respose
                 setInventories(data)
@@ -18,7 +18,7 @@ const ManageInventory = () => {
     }, [inventories])
 
     const handleDeleteItem = async (id) => {
-        const url = `http://localhost:5000/inventory/${id}`
+        const url = `https://ancient-fjord-07745.herokuapp.com/inventory/${id}`
         const { data } = await axios.delete(url)
         if (data.deleteCount > 0) {
             const remaining = inventories.filter(inventory => inventory._id !== id)
