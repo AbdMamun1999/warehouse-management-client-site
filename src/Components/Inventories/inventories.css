@@ -13,3 +13,9 @@
     border-radius: 7px;
     padding: 5px 10px;
 }
+
+@media screen and (max-width:668px) {
+    .inventories-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -26,3 +26,10 @@
 .background-img:hover{
     opacity: 1;
 }
+
+@media screen and (max-width:668px) {
+    .background-img{
+        width: 80%;
+        width: 80%;
+    }
+}
