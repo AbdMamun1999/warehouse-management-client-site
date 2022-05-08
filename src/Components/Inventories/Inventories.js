@@ -6,9 +6,11 @@ import './inventories.css'
 
 const Inventories = () => {
     const [inventories, setInventories] = useState([])
+    const [isLoading,setIsLoading] = useState(false)
     const navigate = useNavigate()
 
     useEffect(()=>{
+        setIsLoading(!isLoading)
         axios.get('https://ancient-fjord-07745.herokuapp.com/inventory')
         .then(response =>{
             const {data} = response;

@@ -1,0 +1,22 @@
+.banner{
+    margin-bottom: 50px;
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.banner small,.banner h1{
+    color: white;
+    font-weight: bold;
+}
+.banner button{
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+}

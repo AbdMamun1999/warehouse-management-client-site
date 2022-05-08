@@ -1,0 +1,27 @@
+.farmer-header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.farmers{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.farmers-card{
+    box-shadow: 0 0 5px 0;
+    border-radius: 8px;
+}
+.farmer-img{
+    text-align: center;
+}
+.descrption{
+    padding: 20px;
+}
+@media screen and (max-width:668px) {
+    .farmers{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
