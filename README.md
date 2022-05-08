@@ -1,5 +1,8 @@
 # Organic Store
 
+# Description
+* This is a website for warehouse management.there is quantity update and reduce , add product, functionality.
+
 ## Live-site-link:https://warehouse-management-authentic.web.app/
 
 # Feateur
