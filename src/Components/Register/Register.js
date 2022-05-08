@@ -58,7 +58,6 @@ const Register = () => {
 
     return (
         <div className='register'>
-            <h1>WELCOME TO WAREHOUSE MANAGEMENT</h1>
             <div className='register-container'>
                 <h2 className='mb-3'>Sign Up</h2>
                 <form onSubmit={handleRegister}>

@@ -11,7 +11,7 @@
 }
 .register-container{
     width: 30%;
-    margin: auto;
+    /* margin: auto; */
     box-shadow: 1px 1px 8px 0 black;
     padding: 20px 10px 10px 10px;
     border-radius: 5px;
@@ -43,9 +43,12 @@
 .error-massage{
     color: red;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
+    .register{
+        width: 100%;
+    }
     .register-container{
-        width: 500px;
-        height: 500px;
+        width: 100%;
+        height: 100vh;
     }
 }
