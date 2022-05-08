@@ -22,6 +22,7 @@
 
 .why-to-choose-bottom-wrapper{
     display: flex;
+    flex-direction: row;
     align-items: center;
     background-color: rgba(239, 232, 235, 0.8);
     padding: 10px;
@@ -31,8 +32,15 @@
     padding: 5px;
 }
 
+.why-img{
+    max-width: 100%;
+}
+
 @media screen and (max-width:668px) {
     .why-to-choose-bottom{
         grid-template-columns: repeat(1,1fr);
+    }
+    .why-to-choose-bottom-wrapper{
+        flex-direction: column;
     }
 }
