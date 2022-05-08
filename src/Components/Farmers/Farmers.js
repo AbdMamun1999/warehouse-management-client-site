@@ -16,8 +16,8 @@ const Farmers = () => {
                     </div>
                     <div className='descrption'>
                         <h3>George William</h3>
-                        <h6>Arable Farmer</h6>
-                        <p>Praising pain was born and I will give you a complete account of the system.</p>
+                        <h6>Apple's Farmer</h6>
+                        <p>George William was born in 1982.He is a good farmer. He has been producing apples for a long time. He has been working with us for 20 years</p>
                     </div>
                 </div>
                 <div className='farmers-card'>
@@ -26,8 +26,8 @@ const Farmers = () => {
                     </div>
                     <div className='descrption'>
                         <h3>Vijay William</h3>
-                        <h6>Arable Farmer</h6>
-                        <p>Praising pain was born and I will give you a complete account of the system.</p>
+                        <h6>Pomegranate's farmer</h6>
+                        <p>Vijay Willian was born in 1985.He is a good farmer. He has been producing Pomegranate for a long time. He has been working with us for 18 years</p>
                     </div>
                 </div>
                 <div className='farmers-card'>
@@ -36,8 +36,8 @@ const Farmers = () => {
                     </div>
                     <div className='descrption'>
                         <h3>Rebecca Garzany</h3>
-                        <h6>Arable Farmer</h6>
-                        <p>Praising pain was born and I will give you a complete account of the system.</p>
+                        <h6>Pumpkin's farmer</h6>
+                        <p>Vijay Willian was born in 1975.He is a good farmer. He has been producing Pumpkin for a long time. He has been working with us for 26 years</p>
                     </div>
                 </div>
             </div>

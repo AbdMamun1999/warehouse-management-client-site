@@ -10,7 +10,7 @@ const WhyToChooseUs = () => {
         <div className='why-to-choose-us'>
             <div className='why-to-choose-top'>
                 <h1 className='farmer-header'>WHY TO CHOOSE US</h1>
-                <p className='why-header-para'>THERE ARE MANY VARIATIONS OF PASSAGES OF LOREM IPSUM AVAILABLE, BUT THE MAJORITY HAVE SUFFERED ALTERATION IN SOME FORM, BY INJECTED HUMOUR.</p>
+                <p className='why-header-para'>There are a number of reasons to do business with Consumer Fresh Produce. We provide the freshest, highest quality fruit and vegetables for your business.</p>
             </div>
             <div className="why-to-choose-bottom">
                 <div className='why-to-choose-bottom-wrapper'>
