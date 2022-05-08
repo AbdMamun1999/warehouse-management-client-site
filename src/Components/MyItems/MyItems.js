@@ -53,14 +53,13 @@ const MyItems = () => {
 
     return (
         <div>
-            <Table responsive="md">
+            <Table responsive="sm">
                 <thead>
                     <tr>
-                        <th>Table heading</th>
-                        <th>Table heading</th>
-                        <th>Table heading</th>
-                        <th>Table heading</th>
-                        <th>Table heading</th>
+                        <th>Thambnail</th>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
                         <th>Action</th>
                     </tr>
                 </thead>

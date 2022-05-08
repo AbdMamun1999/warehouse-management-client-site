@@ -33,3 +33,8 @@
         width: 100%;
     }
 }
+@media screen and (max-width:400) {
+    .background-img p,h2{
+        font-weight: 400;
+    }
+}

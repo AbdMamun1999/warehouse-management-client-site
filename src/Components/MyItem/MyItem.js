@@ -10,9 +10,8 @@ const MyItem = ({ myItem, handleMyItemDelete }) => {
             <td>{name}</td>
             <td>{quantity}</td>
             <td>{price}</td>
-            <td>{suplier}</td>
             <td>
-                <button onClick={handleMyItemDelete}>Delete</button>
+                <button className='delete-button'  onClick={handleMyItemDelete}>Delete</button>
             </td>
         </tr>
     );

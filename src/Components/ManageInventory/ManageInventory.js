@@ -31,7 +31,7 @@ const ManageInventory = () => {
     return (
         <div>
 
-            <Table responsive="md">
+            <Table responsive="sm">
                 <thead>
                     <tr>
                         <th>Thumbnail</th>

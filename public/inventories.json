@@ -5,7 +5,7 @@
         "description": "Rich in vitamins, minerals and antioxidants, pumpkin is incredibly healthy. What's more, its low calorie content makes it a weight-loss-friendly food",
         "price": 80,
         "quantity": 450,
-        "supplier-name": "Hortex Foundation"
+        "supplier": "Hortex Foundation"
     },
     {
         "name": "Papaya",
@@ -13,7 +13,7 @@
         "description": "Papayas contain high levels of antioxidants vitamin A, vitamin C, and vitamin E. Diets high in antioxidants may reduce the risk of heart disease",
         "price": 60,
         "quantity": 400,
-        "supplier-name": "Nuria Enterprise"
+        "supplier": "Nuria Enterprise"
     },
     {
         "name": "Pomegranate",
@@ -21,7 +21,7 @@
         "description": "Pomegranate juice contains higher levels of antioxidants than most other fruit juices. It also has three times more antioxidants than red wine and green tea.",
         "price": 70,
         "quantity": 400,
-        "supplier-name": "Planner Associates ltd"
+        "supplier": "Planner Associates ltd"
     },
     {
         "name": "Cabbage",
@@ -29,7 +29,7 @@
         "description": "Even though cabbage is very low in calories, it has an impressive nutrient profile.Cabbage also contains small amounts of other micronutrients, including vitamin A, iron and riboflavin.",
         "price": 60,
         "quantity": 400,
-        "supplier-name": "G.I.T Bangladesh Ltd"
+        "supplier": "G.I.T Bangladesh Ltd"
     },
     {
         "name": "Banana",
@@ -37,7 +37,7 @@
         "description": "Bananas contain fiber, potassium, folate, and antioxidants, such as vitamin C. All of these support heart health.",
         "price": 40,
         "quantity": 400,
-        "supplier-name": "Ratul Trade LTD"
+        "supplier": "Ratul Trade LTD"
     },
     {
         "name": "Ladies Finger",
@@ -45,7 +45,7 @@
         "description": "Bhindi contains a high amount of vitamin C which is known to boost immunity and prevent common infections. 100 grams of bhindi can give you around 40% of the daily recommended intake of vitamin C.",
         "price": 40,
         "quantity": 400,
-        "supplier-name": "Agro All Round ltd"
+        "supplier": "Agro All Round ltd"
     },
     {
         "name": "Apple",
@@ -53,7 +53,7 @@
         "description": "Apples are an incredibly nutritious fruit that offers multiple health benefits. They're rich in fiber and antioxidants",
         "price": 60,
         "quantity": 400,
-        "supplier-name": "Aspiration Exim ltd"
+        "supplier": "Aspiration Exim ltd"
     },
     {
         "name": "Carrot",
@@ -61,7 +61,7 @@
         "description": "Carrots are rich in vitamins, minerals, and fiber. They are also a good source of antioxidants. Antioxidants are nutrients present in plant-based foods.",
         "price": 40,
         "quantity": 400,
-        "supplier-name": "Ratul Trade LTD"
+        "supplier": "Ratul Trade LTD"
     },
     {
         "name": "Kiwi",
@@ -69,7 +69,7 @@
         "description": "Kiwis are high in Vitamin C and dietary fiber and provide a variety of health benefits. This tart fruit can support heart health, digestive health, and immunity.",
         "price": 90,
         "quantity": 400,
-        "supplier-name": "Planner Associates ltd"
+        "supplier": "Planner Associates ltd"
     },
     {
         "name": "Fig",
@@ -77,7 +77,7 @@
         "description": "Figs are a good source of both calcium and potassium. These minerals can work together to improve bone density, which can, in turn, prevent conditions like osteoporosis.",
         "price": 0,
         "quantity": 400,
-        "supplier-name": "G.I.T Bangladesh Ltd"
+        "supplier": "G.I.T Bangladesh Ltd"
     },
     {
         "name": "Beetroot",
@@ -85,7 +85,7 @@
         "description": "Beetroot has been gaining in popularity as a superfood. Recent studies claim that beets and beetroot juice can improve athletic performance, reduce blood pressure, and increase blood flow",
         "price": 60,
         "quantity": 400,
-        "supplier-name": "Agro All Round ltd"
+        "supplier": "Agro All Round ltd"
     },
     {
         "name": "Peas",
@@ -93,7 +93,7 @@
         "description": "Peas are a good source of vitamins C and E, zinc, and other antioxidants that strengthen your immune system. Other nutrients, such as vitamins A and B and coumestrol, help reduce inflammation and lower your risk of chronic conditions, including diabetes, heart disease, and arthritis.",
         "price": 40,
         "quantity": 400,
-        "supplier-name": "Aspiration Exim ltd"
+        "supplier": "Aspiration Exim ltd"
     },
     {
         "name": "Cabbage",
@@ -101,7 +101,7 @@
         "description": "Vitamin C, also known as ascorbic acid, is a water-soluble vitamin that serves many important roles in the body.",
         "price": 40,
         "quantity": 400,
-        "supplier-name": "Aspiration Exim ltd"
+        "supplier": "Aspiration Exim ltd"
     },
     {
         "name": "Orange",
@@ -109,7 +109,7 @@
         "description": "Oranges are an excellent source of vitamin C. One orange offers 116.2 per cent of the daily value for vitamin C. Good intake of vitamin C is associated with a reduced risk of colon cancer as it helps to get of free radicals that cause damage to our DNA.",
         "price": 60,
         "quantity": 400,
-        "supplier-name": "Agro All Round ltd"
+        "supplier": "Agro All Round ltd"
     },
     {
         "name": "Mango",
@@ -117,7 +117,7 @@
         "description": "Mango is rich in vitamins, minerals, and antioxidants, and it has been associated with many health benefits, including potential anticancer effects,",
         "price": 30,
         "quantity": 400,
-        "supplier-name": "Ratul Trade LTD"
+        "supplier": "Ratul Trade LTD"
     },
     {
         "name": "Grapes",
@@ -125,7 +125,7 @@
         "description": "Grapes are a go-to snack for picnics and lunchboxes, but don't take them for granted. For thousands of years, they've been used in some cultures as medicine.",
         "price": 65,
         "quantity": 400,
-        "supplier-name": "G.I.T Bangladesh Ltd"
+        "supplier": "G.I.T Bangladesh Ltd"
     },
     {
         "name": "Coconut",
@@ -133,7 +133,7 @@
         "description": "Coconut is the fruit of the coconut palm (Cocos nucifera), which is commonly used for its water, milk, oil, and tasty meat.",
         "price": 45,
         "quantity": 400,
-        "supplier-name": "Planner Associates ltd"
+        "supplier": "Planner Associates ltd"
     },
     {
         "name": "Watermelon",
@@ -141,7 +141,7 @@
         "description": "Watermelon is a sweet and refreshing low calorie summer snack. It provides hydration and also essential nutrients, including vitamins, minerals, and antioxidants.",
         "price": 10,
         "quantity": 400,
-        "supplier-name": "Nuria Enterprise"
+        "supplier": "Nuria Enterprise"
     },
     {
         "name": "Beal",
@@ -149,7 +149,7 @@
         "description": "Bael contains chemicals called tannins, flavonoids, and coumarins. These chemicals help to reduce swelling (inflammation). This might help treat asthma, diarrhea, and other conditions. Also, some of these chemicals help to reduce blood sugar.",
         "price": 60,
         "quantity": 400,
-        "supplier-name": "Hortex Foundation"
+        "supplier": "Hortex Foundation"
     }
 ]
 
