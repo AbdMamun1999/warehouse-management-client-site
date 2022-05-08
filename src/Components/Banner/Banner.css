@@ -1,13 +1,14 @@
 .banner{
+    margin: auto;
     margin-bottom: 50px;
-    width: 100vw;
+    max-width: 98vw;
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    box-sizing: border-box;
 }
 .banner small,.banner h1{
     color: white;

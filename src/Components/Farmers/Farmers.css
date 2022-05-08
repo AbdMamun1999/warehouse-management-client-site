@@ -17,6 +17,9 @@
 .farmer-img{
     text-align: center;
 }
+.farmer-img img{
+    max-width: 100%;
+}
 .descrption{
     padding: 20px;
 }

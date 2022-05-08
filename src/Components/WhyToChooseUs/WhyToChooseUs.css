@@ -1,0 +1,38 @@
+.why-to-choose-us{
+    width: 80%;
+    margin: auto;
+    
+}
+.why-to-choose-top{
+    margin-top: 50px;
+    background-color:rgba(239, 232, 235, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+.why-header-para{
+    text-align: justify;
+}
+
+.why-to-choose-bottom{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.why-to-choose-bottom-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: rgba(239, 232, 235, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+}
+.why-to-choose-bottom-wrapper >*{
+    padding: 5px;
+}
+
+@media screen and (max-width:668px) {
+    .why-to-choose-bottom{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
