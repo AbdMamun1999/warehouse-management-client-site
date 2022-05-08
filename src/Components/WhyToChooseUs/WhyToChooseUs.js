@@ -14,7 +14,7 @@ const WhyToChooseUs = () => {
             </div>
             <div className="why-to-choose-bottom">
                 <div className='why-to-choose-bottom-wrapper'>
-                    <div>
+                    <div className='why-img'>
                         <img src={icon1} alt="" />
                     </div>
                     <div>
