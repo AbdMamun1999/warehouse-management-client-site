@@ -20,7 +20,7 @@ const MyItems = () => {
 
     const loadMyItems = async () => {
         const email = user.email;
-        const url = `https://ancient-fjord-07745.herokuapp.com/myItems?email=${email}`;
+        const url = `https://warehouse-management-server-site-production-009e.up.railway.app/myItems?email=${email}`;
         try{
             const { data } = await axios.get(url, {
                 headers: {
@@ -30,7 +30,7 @@ const MyItems = () => {
             setMyItems(data)
         }
         catch(error){
-            console.log(error.massage);
+            
             if(error.response.status === 401 || error.response.status === 403){
                 signOut(auth)
                 navigate('/login')
@@ -42,10 +42,9 @@ const MyItems = () => {
 
 
     const handleMyItemDelete = async (id) => {
-        console.log(id)
         const confirm = window.confirm('Are sure delete the item')
         if (confirm) {
-            const url = `https://ancient-fjord-07745.herokuapp.com/inventory/${id}`
+            const url = `https://warehouse-management-server-site-production-009e.up.railway.app/inventory/${id}`
             const { data } = axios.delete(url)
         }
 

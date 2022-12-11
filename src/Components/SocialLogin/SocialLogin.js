@@ -8,8 +8,13 @@ const SocialLogin = () => {
     const navigate = useNavigate()
     const location = useLocation()
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+  
 
     let from = location.state?.from?.pathname || "/";
+
+    if (user) {
+        navigate(from,{replace:true})
+      }
 
     const handleGoogleLogin = () => {
         signInWithGoogle()

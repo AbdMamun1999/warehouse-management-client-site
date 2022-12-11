@@ -56,6 +56,8 @@ const Register = () => {
 
     }
 
+   
+
     return (
         <div className='register'>
             <div className='register-container'>

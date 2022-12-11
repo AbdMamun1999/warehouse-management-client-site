@@ -11,7 +11,7 @@ const Inventories = () => {
 
     useEffect(()=>{
         setIsLoading(!isLoading)
-        axios.get('https://ancient-fjord-07745.herokuapp.com/inventory')
+        axios.get('https://warehouse-management-server-site-production-009e.up.railway.app/inventory')
         .then(response =>{
             const {data} = response;
             setInventories(data)

@@ -10,7 +10,6 @@ const EmailVerified = () => {
     const emailVerified = async () => {
         await sendEmailVerification()
         toast('Send Email')
-        console.log('email')
     }
     return (
         <div className='verified-email'>
