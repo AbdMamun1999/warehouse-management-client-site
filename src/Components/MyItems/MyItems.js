@@ -20,7 +20,7 @@ const MyItems = () => {
 
     const loadMyItems = async () => {
         const email = user.email;
-        const url = `https://warehouse-management-server-site-production-009e.up.railway.app/myItems?email=${email}`;
+        const url = `https://warehouse-management-server-zahd.onrender.com/myItems?email=${email}`;
         try{
             const { data } = await axios.get(url, {
                 headers: {
@@ -44,7 +44,7 @@ const MyItems = () => {
     const handleMyItemDelete = async (id) => {
         const confirm = window.confirm('Are sure delete the item')
         if (confirm) {
-            const url = `https://warehouse-management-server-site-production-009e.up.railway.app/inventory/${id}`
+            const url = `https://warehouse-management-server-zahd.onrender.com/inventory/${id}`
             const { data } = axios.delete(url)
         }
 

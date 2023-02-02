@@ -19,7 +19,7 @@ const AddNewItem = () => {
         const supplier = event.target.supplier.value;
         const description = event.target.description.value;
         const addedProduct = {name,email,img,price,quantity,supplier,description}
-        const url = `https://warehouse-management-server-site-production-009e.up.railway.app/inventory`
+        const url = `https://warehouse-management-server-zahd.onrender.com/inventory`
         const { data } = await axios.post(url,addedProduct)
 
         event.target.reset()

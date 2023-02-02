@@ -11,12 +11,12 @@ const Inventories = () => {
 
     useEffect(()=>{
         setIsLoading(!isLoading)
-        axios.get('https://warehouse-management-server-site-production-009e.up.railway.app/inventory')
+        axios.get('https://warehouse-management-server-zahd.onrender.com/inventory')
         .then(response =>{
             const {data} = response;
             setInventories(data)
         })
-    },[])
+    },[inventories])
 
     return (
         <div >

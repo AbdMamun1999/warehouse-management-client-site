@@ -10,7 +10,7 @@ const ManageInventory = () => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        axios.get('https://warehouse-management-server-site-production-009e.up.railway.app/inventories')
+        axios.get('https://warehouse-management-server-zahd.onrender.com/inventories')
             .then(respose => {
                 const { data } = respose
                 setInventories(data)
@@ -18,7 +18,7 @@ const ManageInventory = () => {
     }, [inventories])
 
     const handleDeleteItem = async (id) => {
-        const url = `https://warehouse-management-server-site-production-009e.up.railway.app/inventory/${id}`
+        const url = `https://warehouse-management-server-zahd.onrender.com/inventory/${id}`
         const { data } = await axios.delete(url)
         if (data.deleteCount > 0) {
             const remaining = inventories.filter(inventory => inventory._id !== id)

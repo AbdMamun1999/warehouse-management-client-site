@@ -10,7 +10,7 @@ const useToken = async (user) => {
 
     if (email) {
       fetch(
-        `https://warehouse-management-server-site-production-009e.up.railway.app/login`,
+        `https://warehouse-management-server-zahd.onrender.com/login`,
         {
           method: "PUT",
           headers: {
